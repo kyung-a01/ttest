@@ -35,7 +35,7 @@
                                         <img src="./img/Star1.png" alt="별점">
                                         <img src="./img/Star2.png" alt="별점"> 
                                     </li>
-                                        <li>#요거프레소#딸기요거트 #아이스아메리카노 #아이스스무디 #과일빙수 #아이스크림</li>
+                                        <li>#요거프레소 #딸기요거트 #아이스아메리카노 #과일빙수</li>
                             </ul></a>
                         </li>
                         <li><img src="./img/list2.png" alt="starbucks" class="cafe">
@@ -50,7 +50,7 @@
                                 <img src="./img/Star1.png" alt="별점">
                                 <img src="./img/Star1.5.png" alt="별점">  
                                     </li>
-                                        <li>#스타벅스 #아메리카노 #조각케익 #스무디 #넓은카페 #신상음료 #텀블러</li>
+                                        <li>#스타벅스 #아메리카노 #조각케익 #시즌음료  #텀블러</li>
                             </ul></a>
                         </li>
                         <li><img src="./img/list3.png" alt="Ediya" class="cafe">
@@ -65,7 +65,7 @@
                                 <img src="./img/Star2.png" alt="별점">
                                 <img src="./img/Star2.png" alt="별점"> 
                                     </li>
-                                        <li>#이디야 #아이스아메리카노 #디저트 #과일빙수 #넓은카페 #가성비</li>
+                                        <li>#이디야 #아이스아메리카노 #디저트 #가성비</li>
                             </ul></a>
                         </li>
                         <li><img src="./img/list4.png" alt="Ediya" class="cafe">
@@ -80,7 +80,7 @@
                                 <img src="./img/Star1.5.png" alt="별점">
                                 <img src="./img/Star2.png" alt="별점"> 
                                     </li>
-                                        <li>#투썸플레이스 #아이스아메리카노 #디저트 #조각케익 #과일빙수 #넓은카페 </li>
+                                        <li>#투썸플레이스 #디저트 #조각케익 #넓은카페 </li>
                             </ul></a>
                         </li>
                         <li><img src="./img/list5.png" alt="Ediya" class="cafe">
@@ -95,7 +95,22 @@
                                 <img src="./img/Star1.png" alt="별점">
                                 <img src="./img/Star2.png" alt="별점"> 
                                     </li>
-                                        <li>#메가커피 #아이스아메리카노 #디저트 #프라페 #넓은카페 #가성비</li>
+                                        <li>#메가커피 #아이스아메리카노 #프라페  #가성비</li>
+                            </ul></a>
+                        </li>
+                        <li><img src="./img/list6.png" alt="dessert39" class="cafe">
+                            <a href="#none">
+                            <ul>
+                                <li><h2>Dessert 39</h2></li>
+                                    <li>현재 위치에서 5m </li>
+                                    <li>
+                                        <img src="./img/Star1.png" alt="별점">
+                                <img src="./img/Star1.png" alt="별점">
+                                <img src="./img/Star1.png" alt="별점">
+                                <img src="./img/Star1.png" alt="별점">
+                                <img src="./img/Star1.5.png" alt="별점">  
+                                    </li>
+                                        <li>#디저트 #빙수 #조각케익 #가성비  #대용량</li>
                             </ul></a>
                         </li>
                     </ul>
@@ -109,6 +124,7 @@
 export default {
 
 }
+
 </script>
 
 <style scoped>
@@ -118,7 +134,9 @@ export default {
     font-weight: normal;
     font-style: normal;
 }
-
+h2{
+    font-weight: bold;
+}
 ul,li{list-style: none;}
 a{text-decoration: none; color: #333;}
 #wrap{
@@ -132,13 +150,6 @@ a{text-decoration: none; color: #333;}
     position: relative;
     box-sizing: border-box;
     min-height: 100%;
-
-
-        font-family: 'Noto Sans KR', 돋움, sans-serif;
-    line-height: 1;
-
-
-
         font-family: 'Noto Sans KR', 돋움, sans-serif;
     line-height: 1;
 }
@@ -151,8 +162,8 @@ a{text-decoration: none; color: #333;}
 }
 /* header */
     input{
-        height: 40px;
-        width: 78%;
+        height: 42px;
+        width: 81%;
         background-color: rgb(255, 255, 255);
         margin: 8px auto;
         border: #065F44 2px solid;
@@ -162,7 +173,7 @@ a{text-decoration: none; color: #333;}
     }
     header button{
         position: absolute;
-        top: 12px;
+        top: 13px;
         left: 695px;
         background-color: #ffffff;
     }
@@ -172,7 +183,7 @@ a{text-decoration: none; color: #333;}
     }
     #container{display: block;
         width: 680px;
-        min-height: 1600px;
+        min-height: 1520px;
         margin: 0 auto;
         background: rgb(255, 255, 255);
     }
@@ -187,7 +198,6 @@ a{text-decoration: none; color: #333;}
     }
     div.near img{
         padding-left: 15px;
-        padding-top: 20px;
     }
 
     div.near ul.cafelist{
@@ -211,6 +221,9 @@ a{text-decoration: none; color: #333;}
     align-items: center;
     color: #ffffff;
     }
+    div.near ul.cafelist li:first-child{
+            margin-left: -30px;
+        }
     .cafelist{
         display: block;
     }
@@ -232,17 +245,25 @@ a{text-decoration: none; color: #333;}
     }
     
     .list >ul{
-        margin-top: 30px; 
-        width: 100%;
+        margin-top: 30px;
+         margin-left: -32px;
+        width: 105%;
     }
     .list> ul> li{
         border-top: 1px solid #afafaf;
-        padding: 40px 0;
+        padding: 30px 0 0 0px;
         display: flex;
-        height: 130px;
+        height: 200px;
         width: 100%;
         font-size: 1.25em;
         line-height: 1.3;
+        
+        
+    }
+    .list> ul> li>img{
+        width: 130px;
+        height: 130px;
+        
     }
     .list> ul> li:last-child{
         border-bottom: 1px solid #afafaf;
@@ -250,7 +271,7 @@ a{text-decoration: none; color: #333;}
     
     .list> ul> li>a >ul> li{
         
-    margin-left: 50px;
+    margin-left: 10px;
         width: 490px;
     }
 @media screen and (max-width:509px){
@@ -263,7 +284,7 @@ a{text-decoration: none; color: #333;}
         width: 100%;
     }
     input{
-        width: 77%;
+        width: 82%;
         margin-left: 30px;
     }
     header button{
@@ -274,19 +295,27 @@ a{text-decoration: none; color: #333;}
     header button img{
         width: 30px;
     }
+    #container{
+        min-height: 1200px;
+        background: rgb(255, 255, 255);
+    }
     div.near h2{
         width: 509px;
         text-align: center;
+        font-size: 1.2rem;
+        padding-top: 15px;
     }
-    div.near{
-        font-size: 0.8rem;
-    }
+
     div.near img{
-        width: 20px;
+        width: 35px;
     }
     div.near ul.cafelist li{
         font-size: 1.1rem;
+        margin: 10px 15px 10px 0; 
     }
+        div.near ul.cafelist li:first-child{
+            margin-left: -10px;
+        }
     div.list{
         /* display: flex; */
         width: 95%;
@@ -298,15 +327,19 @@ a{text-decoration: none; color: #333;}
         width: 100%;
         font-size: 1rem;
         padding: 20px 0 10px 0;
+        height: 170px;
     }
+
     .list> ul> li img.cafe{
     width: 90px;
     height: 90px;
-    padding-top: 10px;
+    margin-top: 20px;
     }
     .list> ul> li>a >ul> li{
-        margin-left: 20px;
-            width: 330px;
-        }
+        
+    margin-left: -10px;
+        width: 335px;
+    }
+
 }
 </style>
