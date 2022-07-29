@@ -533,7 +533,7 @@ button.btn.btn-primary {
   height: 100%;
 }
 .vue-winwheel h1 {
-  color: red;
+  color: black;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   font-size: 36px;
   line-height: 90px;
